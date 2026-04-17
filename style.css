@@ -1,25 +1,70 @@
-body{
+body {
     font-family: "Saira Stencil", sans-serif;
     margin: 0;
 }
-.header{
+
+.header {
     background-color: #2C3E50;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 24px;
 }
-.logo{
- color: white;  
- font-weight: 500; 
+
+.logo {
+    color: white;
+    font-weight: 500;
 }
-.link{
-    color:antiquewhite;
+
+.link-item {
+    color: antiquewhite;
     text-decoration: none;
     margin-left: 8px;
     margin-right: 12px;
 }
 
+.container {
+    display: flex;
+}
 
+.left-pannel {
+    border-radius: 5px solid;
+    flex-basis: 250px;
+    
+}
 
+.content {
+    border: 1px solid;
+    flex-grow: 1;
+    background-color: black;
+    color: white;
+}
 
+.link-item2 {
+    color: grey;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: aliceblue;
+    padding: 20px;
+    padding-bottom: 30px;
+    
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.column {
+
+    
+    
+}
+
+.link-column {
+      text-decoration: none;
+      color: black;
+}
