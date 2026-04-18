@@ -29,13 +29,18 @@ body {
 
 .left-pannel {
     border-radius: 5px solid;
-
-    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 1;
+    width: 200px;
+    background: #eee;
+    padding: left 5px; ;
 }
 
 .content {
     border: 1px solid;
-    flex-grow: 1;
+    flex-grow: 4;
     background-color: black;
     color: white;
 }
@@ -49,7 +54,7 @@ body {
     background-color: aliceblue;
     padding: 20px;
     padding-bottom: 30px;
-    
+
 }
 
 .columns {
@@ -60,6 +65,14 @@ body {
 
 
 .link-column {
-      text-decoration: none;
-      color: black;
+    text-decoration: none;
+    color: black;
+}
+
+.link-5 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    gap: 20px;
+
 }
